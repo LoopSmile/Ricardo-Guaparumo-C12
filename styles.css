@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.franja{
+    background-color: rgb(82, 131, 230);
+    height: 50px;
+}
+.franja ul{
+    display: grid;
+    grid-template-columns: repeat(4,500px);
+    grid-template-rows: 50px;
+    grid-column-gap: 30px;
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    padding-top: 13px;
+}
+.franja li{
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-left: px;
+}
+.nav{
+    background-image: linear-gradient(to left top, #5283e6, #7b9eed, #a0b8f4, #c4d4fa, #e8efff);
+}
+.nav a{
+    color: white ;
+    font-family: sans-serif;
+    text-shadow: 0 0 1px black;
+}
+.nav a:hover{
+    background-color: #7b9eed;
+}
+footer{
+    width: 100%;
+    height: 160px;
+    background-image: linear-gradient(to left top, #5283e6, #7b9eed, #a0b8f4, #c4d4fa, #e8efff);
+}
+.footerList{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-column-gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+.footer li{
+    list-style: none;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer i {
+    color: white;
+    font-size: 50px;
+    text-shadow: 0 0 1px white;
+}
+.footer p{
+    padding-top: 5px;
+    font-family:sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 1px black;
+}
